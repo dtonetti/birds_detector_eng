@@ -1,19 +1,18 @@
-# Classificador de Espécies de Passáros
-Esse notebook é inspirado na primeira aula do curso da fast.ai Practical Deep Learning for Coders.
+# Birds Species Detector
 This notebook is inspired in the first class of fast.ai **Practical Deep Learning for Coders** course.
 
-O objetivo deste projeto é constuir uma aplicação de machine learning que consiga classificar imagens de 9 diferentes espécies brasileiras. Para isso utilizei a biblioteca fast.ai e a técnica transfer-learning.
+The goal of this project is to build a machine learning aplication that can classify birds imagens into 9 different species using fast.ai library with transfer learning.
 
-# Scraping dos Dados
+# Data Scrapping
 
-Eu utilizei o script [**googliser**](https://github.com/teracow/googliser) para fazer o download das imagens dos passáros e construir meu banco de imagens.
+I used the [**googliser**](https://github.com/teracow/googliser) script to download bird images from web and build my database.
 
-# Modelos
-Para este projeto eu utilizei uma rede pré-treinada Resnet34 e realizei algumas etapas de fine-tunning para melhorar os resultados.
+# Models
+For this project I used transfer learning on a CNN trained on resnet34, and did some fine-tunning to improve a little the results.
 
-# Performance dos Modelos
-- Default Resnet34: Acurácia = 92.06 % 
-- Fine-Tuned Resnet34: Acurácia = 95.24 %
+# Models Performance
+- Default Resnet34: Accuracy = 92.06 % 
+- Fine-Tuned Resnet34: Accuracy = 95.24 %
 
 # Code and Resources Used
 
